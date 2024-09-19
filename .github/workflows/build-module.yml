@@ -11,8 +11,8 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - target: mediatek
-            subtarget: filogic
+          - target: armsr
+            subtarget: armv8
     steps:
       - name: Get snapshot commit SHA and device ARCH
         run: |
