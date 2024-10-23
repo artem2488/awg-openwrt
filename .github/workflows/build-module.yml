@@ -6,7 +6,7 @@ permissions:
 
 jobs:
   build:
-    name: "snapshots - ${{ matrix.build_env.target}}/${{ matrix.build_env.subtarget}} build"
+    name: "snapshots - ${{ matrix.build_env.target}}/${{ matrix.build_env.subtarget}} 6.6.39~d95e8f7f433c06fa13dfbaa88d381449-r1"
     runs-on: ubuntu-latest
     strategy:
       matrix:
